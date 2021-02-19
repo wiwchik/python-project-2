@@ -1,0 +1,24 @@
+add_to_back_4
+Constant Time — O(1)
+No matter the size of the input data, 
+the running time will always be the same.
+
+add_to_front_4
+Constant Time — O(1)
+
+print_el
+Linear Time — O(n)
+Because  algorithm must examine all values in the input data.
+
+get_el_by_index
+Linear Time — O(n)
+
+remove_last_el
+Logarithmic Time — O(log n)
+Because it reduces the size of the input data in each step
+
+remove_first_el
+Logarithmic Time — O(log n)
+
+search_by_value
+Linear Time — O(n)
